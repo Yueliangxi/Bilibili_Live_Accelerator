@@ -1,0 +1,13 @@
+{
+  "name": "bilibili-live-accelerator",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Same-quality FLV preference and classified playback diagnostics for Bilibili Live",
+  "license": "GPL-3.0-only",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "test": "node --test test/*.test.js",
+    "check": "node --check bilibili-live-accelerator.user.js && node --check bilibili-live-accelerator.meta.js"
+  },
+  "engines": { "node": ">=18" }
+}
